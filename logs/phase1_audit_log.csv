@@ -1,0 +1,41 @@
+timestamp,round,client_id,scenario,decision,reason
+2026-10-03T18:10:42.738388+00:00,1,client_0,No_ABAC,ALLOW,ABAC disabled (baseline)
+2026-10-03T18:10:42.739388+00:00,1,client_1,No_ABAC,ALLOW,ABAC disabled (baseline)
+2026-10-03T18:10:42.739388+00:00,1,client_2,No_ABAC,ALLOW,ABAC disabled (baseline)
+2026-10-03T18:10:42.739388+00:00,1,client_3,No_ABAC,ALLOW,ABAC disabled (baseline)
+2026-10-03T18:10:53.553025+00:00,2,client_0,No_ABAC,ALLOW,ABAC disabled (baseline)
+2026-10-03T18:10:53.553025+00:00,2,client_1,No_ABAC,ALLOW,ABAC disabled (baseline)
+2026-10-03T18:10:53.553025+00:00,2,client_2,No_ABAC,ALLOW,ABAC disabled (baseline)
+2026-10-03T18:10:53.553025+00:00,2,client_3,No_ABAC,ALLOW,ABAC disabled (baseline)
+2026-10-03T18:10:57.459841+00:00,3,client_0,No_ABAC,ALLOW,ABAC disabled (baseline)
+2026-10-03T18:10:57.459841+00:00,3,client_1,No_ABAC,ALLOW,ABAC disabled (baseline)
+2026-10-03T18:10:57.461205+00:00,3,client_2,No_ABAC,ALLOW,ABAC disabled (baseline)
+2026-10-03T18:10:57.461205+00:00,3,client_3,No_ABAC,ALLOW,ABAC disabled (baseline)
+2026-10-03T18:11:01.367704+00:00,4,client_0,No_ABAC,ALLOW,ABAC disabled (baseline)
+2026-10-03T18:11:01.368705+00:00,4,client_1,No_ABAC,ALLOW,ABAC disabled (baseline)
+2026-10-03T18:11:01.368705+00:00,4,client_2,No_ABAC,ALLOW,ABAC disabled (baseline)
+2026-10-03T18:11:01.368705+00:00,4,client_3,No_ABAC,ALLOW,ABAC disabled (baseline)
+2026-10-03T18:11:05.302152+00:00,5,client_0,No_ABAC,ALLOW,ABAC disabled (baseline)
+2026-10-03T18:11:05.302152+00:00,5,client_1,No_ABAC,ALLOW,ABAC disabled (baseline)
+2026-10-03T18:11:05.302152+00:00,5,client_2,No_ABAC,ALLOW,ABAC disabled (baseline)
+2026-10-03T18:11:05.303153+00:00,5,client_3,No_ABAC,ALLOW,ABAC disabled (baseline)
+2026-10-03T18:11:09.891191+00:00,1,client_0,With_ABAC,ALLOW,
+2026-10-03T18:11:09.891191+00:00,1,client_1,With_ABAC,ALLOW,
+2026-10-03T18:11:09.891191+00:00,1,client_2,With_ABAC,ALLOW,
+2026-10-03T18:11:09.891191+00:00,1,client_3,With_ABAC,DENY,role 'intruder' not permitted
+2026-10-03T18:11:18.666300+00:00,2,client_0,With_ABAC,ALLOW,
+2026-10-03T18:11:18.666300+00:00,2,client_1,With_ABAC,ALLOW,
+2026-10-03T18:11:18.667296+00:00,2,client_2,With_ABAC,ALLOW,
+2026-10-03T18:11:18.667296+00:00,2,client_3,With_ABAC,DENY,role 'intruder' not permitted
+2026-10-03T18:11:21.815216+00:00,3,client_0,With_ABAC,ALLOW,
+2026-10-03T18:11:21.815216+00:00,3,client_1,With_ABAC,ALLOW,
+2026-10-03T18:11:21.815216+00:00,3,client_2,With_ABAC,ALLOW,
+2026-10-03T18:11:21.815216+00:00,3,client_3,With_ABAC,DENY,role 'intruder' not permitted
+2026-10-03T18:11:24.941358+00:00,4,client_0,With_ABAC,ALLOW,
+2026-10-03T18:11:24.941358+00:00,4,client_1,With_ABAC,ALLOW,
+2026-10-03T18:11:24.941358+00:00,4,client_2,With_ABAC,ALLOW,
+2026-10-03T18:11:24.941358+00:00,4,client_3,With_ABAC,DENY,role 'intruder' not permitted
+2026-10-03T18:11:28.250551+00:00,5,client_0,With_ABAC,ALLOW,
+2026-10-03T18:11:28.250551+00:00,5,client_1,With_ABAC,ALLOW,
+2026-10-03T18:11:28.250551+00:00,5,client_2,With_ABAC,ALLOW,
+2026-10-03T18:11:28.250551+00:00,5,client_3,With_ABAC,DENY,role 'intruder' not permitted
